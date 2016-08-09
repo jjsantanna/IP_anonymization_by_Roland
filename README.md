@@ -1,6 +1,6 @@
 # Anonymization (by Roland van Rijswijk)
 
-This is a copy-and-paste of Roland´s code to anonymize IP addresse.sdon tThe only thing that you MUST TO do is to change the string "SALT GOES HERE" for any string that you want. Then, the IP addresses in your data will be anonymized as a 256-bit (32-byte) hash value (i.e., SHA-256).
+This is a copy-and-paste of [Roland's](https://nl.linkedin.com/in/rolandvanrijswijk) source code to anonymize IP addresse. The only thing that you **MUST TO** do is to change the string "SALT GOES HERE" for any string that you want. Then, the IP addresses in your data will be anonymized as a 256-bit (32-byte) hash value (i.e., SHA-256).
 
 ```
 #include <stdio.h>
